@@ -12,7 +12,7 @@ $fonte-2: 'Aref Ruqaa', serif;
 // Mixin: Tipografia
 
 @function em($pixel, $context: 16) {
-  @return $pixel / $context + "em";
+  @return $pixel / $context + em;
 }
 @mixin tipo-1($size) {
   font-family: $fonte-1;
